@@ -121,3 +121,68 @@ footer img{
   margin-right: 1rem;
   padding-left: 1rem;
 }
+
+
+@media only screen and (max-width: 1024px){
+  header{
+    height: 22rem;
+  }
+  .container{
+    width: 100%;
+  }
+  .headbanner{
+    margin-top: -1rem;
+  }
+  .motto{
+    padding: .75rem 4rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+  }
+  .motto span{
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 470px){
+  .headbanner{
+    margin-top: -1rem;
+  }
+  .container{
+    width: 100%;
+  }
+  header{
+    height: 17rem;
+    background-position: 20%;
+  }
+  .motto{
+    display: block;
+    width: 100%;
+    margin-top: 9rem;
+    padding: 1rem 0rem;
+  }
+  .motto span{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .supporting{
+    display: block;
+    padding-top: 3.77rem;
+    padding-bottom: 3.77rem;
+  }
+  .service{
+    font-family: Helvetica;
+    font-size: .77rem;
+    padding: 1.54rem;
+  }
+  .title{
+    margin-bottom: 1rem;
+  }
+  p{
+    font-family: Helvetica;
+    font-size: .77rem;
+    margin-bottom: 4rem;
+  }
+  .logo div{
+    display: none;
+  }
+}
